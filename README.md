@@ -43,28 +43,3 @@ O modelo final foi treinado com 100% dos dados disponíveis para maximizar seu a
 * **Manipulação de Dados:** Pandas, NumPy
 * **Visualização:** Matplotlib, Seaborn
 * **Machine Learning:** Scikit-Learn, SciPy
-
-## Como usar o modelo treinado
-Você pode usar o modelo salvo neste repositório para fazer novas previsões sem precisar treinar os algoritmos novamente.
-
-1. Instale as dependências:
-```python
-pip install pandas scikit-learn joblib
-```
-
-2. Faça a previsão em um arquivo Python (lembre de criar o arquivo python na mesma pasta do modelo):
-```python
-import joblib
-
-# Carrega o modelo treinado salvo
-modelo = joblib.load('modelo_lda_iris.pkl')
-
-# Insira as medidas da nova flor na ordem: 
-# [sepal_length, sepal_width, petal_length, petal_width]
-flor_inedita = [[5.7, 3.0, 1.2, 0.2]]
-
-# Realiza a previsão
-previsao = modelo.predict(flor_inedita)
-print(f"A espécie detectada é: {previsao[0]}")
-# Saída esperada: Iris-setosa
-```
