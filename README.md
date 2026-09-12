@@ -52,7 +52,7 @@ Você pode usar o modelo salvo neste repositório para fazer novas previsões se
 pip install pandas scikit-learn joblib
 ```
 
-2. Faça a previsão em um arquivo Python:
+2. Faça a previsão em um arquivo Python (lembre de criar o arquivo python na mesma pasta do modelo):
 ```python
 import joblib
 
