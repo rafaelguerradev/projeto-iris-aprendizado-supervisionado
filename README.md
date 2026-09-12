@@ -48,13 +48,12 @@ O modelo final foi treinado com 100% dos dados disponíveis para maximizar seu a
 Você pode usar o modelo salvo neste repositório para fazer novas previsões sem precisar treinar os algoritmos novamente.
 
 1. Instale as dependências:
-   pip install pandas scikit-learn joblib
+```python
+pip install pandas scikit-learn joblib
+```
 
 2. Faça a previsão em um arquivo Python:
-
 ```python
-def ola():
-    print("Olá, mundo!")
 import joblib
 
 # Carrega o modelo treinado salvo
