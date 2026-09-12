@@ -1,4 +1,4 @@
-# Classificação do Dataset Iris 🌸
+# Classificação do Dataset Iris
 
 Este projeto é uma aplicação de Machine Learning para classificação multiclasse utilizando o clássico dataset Iris. O objetivo é classificar a espécie de uma flor (Setosa, Versicolor ou Virginica) com base nas medidas de suas sépalas e pétalas.
 A seguir o pipeline de implementação do Machine Learning
